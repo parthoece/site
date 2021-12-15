@@ -12,7 +12,6 @@ extensions = [
     'IPython.sphinxext.ipython_directive',
     'myst_nb',
     'jupyter_sphinx',
-    'sphinxext.opengraph',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -125,17 +124,3 @@ execution_allow_errors = True
 
 # Do not execute cells
 jupyter_execute_notebooks = "off"
-
-
-# Open Graph
-ogp_site_url = "https://autogis-site.readthedocs.io"
-ogp_image = "https://autogis-site.readthedocs.io/en/latest/_static/AutoGIS-logo.png"
-ogp_custom_meta_tags = [
-    '<meta property="twitter:card" content="summary_large_image">',
-    '<meta property="twitter:title" content="Automating GIS-processes 2021">',
-    '<meta property="twitter:description" content="Automating GIS-processes course wepages, University of Helsinki">',
-    '<meta property="twitter:image" content="https://autogis-site.readthedocs.io/en/latest/_static/AutoGIS-logo.png">'
-]
-
-
-
