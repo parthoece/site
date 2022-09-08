@@ -5,9 +5,11 @@ channels:
   - patrikhlobil
 
 dependencies:
-  - python=3.8
+  - python
   - jupyterlab
   - jupyterlab-git
+  - spyder
+  - numpy
   - matplotlib
   - geopandas
   - geojson
@@ -24,6 +26,7 @@ dependencies:
   - bokeh
   - patrikhlobil::pandas-bokeh
   - pip
+  - qgis
 
 
 
